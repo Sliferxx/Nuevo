@@ -13,5 +13,5 @@ typedef struct TipoMonstruo{
   int vida;
   int defensa;
   int ataque;
-  int ptos;
+  int puntaje;
 }Monstruo;
