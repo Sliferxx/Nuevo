@@ -3,4 +3,4 @@ jugador>vida=(jugador>vida)-((monstruo->ataque);
 	if (jugador->vida==0)
 	{
 		return 0; // El monstruo fue derrotado por lo que acaba el combate en ses calabozo//
-  }
+        }
