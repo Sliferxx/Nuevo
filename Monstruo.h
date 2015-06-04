@@ -13,5 +13,5 @@ typedef struct TipoMonstruo{
   int vida;
   int ataque;
   int puntaje;
-  int estado;
+  int estado;//El estado se refiere a aqu el monstruo puede estar despierto o dormido//
 }Monstruo;
