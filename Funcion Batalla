@@ -19,18 +19,17 @@ int Batalla(Jugador *Jugador Monstruo *monstruo )
          {
             if(Ataca_Monstruo(monstruo,jugador)!=0)
             {
-		        	printf("SIGUES CON VIDA POR SUERTE\n");
-			      }
-			      else
-			      {
-			        if Ataca_Monstruo(monstruo,jugador)==0)
-              {
+      		printf("SIGUES CON VIDA POR SUERTE\n");
+       	    }
+      	    else
+       	    {
+      		if Ataca_Monstruo(monstruo,jugador)==0)
+                {
                   muerte=0;
                   identifcador=1;
-              }
-			      }
+                }
+       	    }
          }
-          
       }
    }
 } 
