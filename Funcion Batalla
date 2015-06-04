@@ -1,0 +1,36 @@
+int Batalla(Jugador *Jugador Monstruo *monstruo )
+{
+   int identificador ,muerte=1;
+   
+   while(muerte!=0)
+   {
+      if (Ataca_Jugador (monstruo,jugador)!=0)
+      {
+         printf("El Monstruo no ha muerto\n");
+      }
+      else
+      {
+         if Ataca_Jugador (monstruo,jugador)==0)
+         {
+               muerte=0;
+               identifcador=0;
+         }
+         else
+         {
+            if(Ataca_Monstruo(monstruo,jugador)!=0)
+            {
+		        	printf("SIGUES CON VIDA POR SUERTE\n");
+			      }
+			      else
+			      {
+			        if Ataca_Monstruo(monstruo,jugador)==0)
+              {
+                  muerte=0;
+                  identifcador=1;
+              }
+			      }
+         }
+          
+      }
+   }
+} 
