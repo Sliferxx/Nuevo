@@ -2,5 +2,6 @@
 int Ataca_Jugador (Monstruo *monstruo, Jugador *jugador){ 
 	monstruo->vida=(monstruo->vida)-((jugador->ataque);
 	if (monstruo->vida==0)
-		return 0; // El monstruo fue derrotado por lo que acaba el combate//
-}
+	{
+		return 0; // El monstruo fue derrotado por lo que acaba el combate en ses calabozo//
+        }
